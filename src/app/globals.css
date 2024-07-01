@@ -3,16 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    
   }
 }
 
@@ -31,3 +27,113 @@ body {
     text-wrap: balance;
   }
 }
+
+*{
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  
+}
+.ms-8{
+    margin-left: 3rem !important; /* Custom left margin */
+  }
+  .mb-8 {
+    margin-bottom: 4rem !important; /* Custom bottom margin */
+  }
+.mt-10{
+  margin-top: 8rem;
+}
+ 
+  .first{
+    margin-top: 8rem;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+.section{
+  margin: auto;
+}
+.inputemail{
+  border: none ;
+  outline: none;
+}
+.tick{
+  width: 20px;
+  height: 20px;
+}
+.vl {
+  border-left: 2px solid black;
+  height: 150px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+
+}
+
+.iconback{
+  background-color: rgb(207, 177, 235);
+  width: 60px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.line{
+  border-left: 2px dashed red;
+  height: 100px;
+}
+.iconbox{
+  width: 5%;
+  height: 10%;
+}
+li,ul{
+  list-style: none;
+
+}
+@media (max-width: 576px) {
+  .text-sm {
+    font-size: 0.8rem; /* Adjust as needed */
+  }
+  .iconbox{
+    width: 10%;
+    height: 10%;
+  }
+  .rt{
+    transform: rotate(90deg);
+  }
+  .first{
+    margin-top: 5rem;
+  }
+
+#mobileMenu{
+  overflow-y: scroll;
+}
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .text-md {
+    font-size: 1rem; /* Adjust as needed */
+  }
+  .first{
+    margin-top: 3rem;
+  }
+  #mobileMenu{
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 769px) {
+  .text-lg {
+    font-size: 1.2rem; /* Adjust as needed */
+  }
+  #mobileMenu{
+    overflow-y: scroll;
+  }
+}
+
