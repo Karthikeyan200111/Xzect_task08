@@ -20,7 +20,7 @@ const Header = () => {
     <header className="mx-auto bg-white sticky top-0 z-50">
       <nav className="bg-white p-3 flex items-center justify-between mx-auto max-w-screen-xl">
         <a className="text-gray-800 font-bold text-3xl ml-5" href="#">
-          <img src="/assets/logo-dark.webp" alt="logo" className="sm:w-auto w-40" />
+          <img src="./assets/logo-dark.webp" alt="logo" className="sm:w-auto w-40" />
         </a>
         <button
           id="toggleMobileMenu"
